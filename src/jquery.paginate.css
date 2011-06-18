@@ -1,0 +1,14 @@
+.jquery-paginate .paginable .page { float:left; }
+
+.jquery-paginate .pager { }
+.jquery-paginate .pager a { display: inline-block; padding: 8px; }
+.jquery-paginate .pager a:hover { background-color:yellow; }
+
+.jquery-paginate .turner:after { content:"."; visibility:hidden; height:0; clear:both; display:block; }
+.jquery-paginate .turner a,
+.jquery-paginate .turner span { display: block; float:left; line-height:30px; }
+.jquery-paginate .turner span { padding:0 2px; }
+.jquery-paginate .turner a { height:30px; background-color:#CCC; }
+.jquery-paginate .turner a:hover { background-color:yellow; }
+.jquery-paginate .turner a.button.next { background:url('../img/btn_next.gif') no-repeat 10px 11px; }
+.jquery-paginate .turner a.button.prev { background:url('../img/btn_prev.gif') no-repeat 10px 11px; }
